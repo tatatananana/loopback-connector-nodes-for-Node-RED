@@ -12,6 +12,13 @@
     "node",
     "red"
   ],
+  "node-red"     : {
+      "nodes": {
+          "async-observer": "async-observer/async-observer.js",
+          "sync-observer": "sync-observer/sync-observer.js",
+          "sync-observer-end": "sync-observer-end/sync-observer-end.js"
+      }
+  },
   "author": "Sachin Mane",
   "license": "ISC"
 }
