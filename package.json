@@ -2,9 +2,13 @@
   "name": "node-red-contrib-loopback",
   "version": "1.0.0",
   "description": "Node-RED nodes to connect loopback (http://loopback.io) based node applications",
-  "main": "index.js",
+  "main": "node-red.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@10.73.53.167:ev/node-red-contrib-loopback.git"
   },
   "keywords": [
     "node-red",
@@ -12,13 +16,20 @@
     "node",
     "red"
   ],
-  "node-red"     : {
-      "nodes": {
-          "async-observer": "async-observer/async-observer.js",
-          "sync-observer": "sync-observer/sync-observer.js",
-          "sync-observer-end": "sync-observer-end/sync-observer-end.js"
-      }
+  "node-red": {
+    "nodes": {
+      "async-observer": "async-observer/async-observer.js",
+      "sync-observer": "sync-observer/sync-observer.js",
+      "sync-observer-end": "sync-observer-end/sync-observer-end.js"
+    }
   },
   "author": "Sachin Mane",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "supertest": "^1.2.0"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "node-red": "^0.13.2"
+  }
 }

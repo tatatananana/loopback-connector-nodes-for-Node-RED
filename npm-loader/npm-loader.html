@@ -1,0 +1,41 @@
+<script type="text/javascript">
+    RED.nodes.registerType('npm-loader', {
+        category: 'input',
+        color: '#CED8F6',
+        defaults: {
+            name: {
+                value: ""
+            },
+            modulename: {
+                value: ""
+            },
+            modulepath: {
+                value: ""
+            }
+        },
+        inputs: 1,
+        outputs: 1,
+        icon: "evf.png",
+        label: function () {
+            return this.name || "npm-loader";
+        }
+    });
+</script>
+<script type="text/x-red" data-template-name="npm-loader">
+	<div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-modulename"><i class="icon-tag"></i> Module Name</label>
+        <input type="text" id="node-input-modulename" placeholder="Module Name">
+    </div>
+	<div class="form-row">
+        <label for="node-input-modulepath"><i class="icon-tag"></i> Module Path</label>
+        <input type="text" id="node-input-modulepath" placeholder="Module Path">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="npm-loader">
+    <p>Loads a npm module</p>
+</script>

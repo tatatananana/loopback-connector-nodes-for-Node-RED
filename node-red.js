@@ -3,7 +3,12 @@ var express = require('express');
 
 var RED = require('node-red');
 
-module.exports = function(options, callback) {
+module.exports = {
+    start : start,
+    stop : stop
+}
+
+function start(options, callback) {
 
     // Create an Express app
     var app = express();
@@ -17,7 +22,7 @@ module.exports = function(options, callback) {
     // Create the settings object - see default settings.js file for other
     // options
     var settings;
-    if (options.settings) {
+    if (options && options.settings) {
 	settings = options.settings;
     } else {
 	settings = {
@@ -40,11 +45,16 @@ module.exports = function(options, callback) {
     // Serve the http nodes UI from /api
     app.use(settings.httpNodeRoot, RED.httpNode);
 
-    var port = options.port || 3001;
+    var port = options ? options.port || 3001 : 3001;
+
     server.listen(port);
 
     // Start the runtime
     RED.start();
 
     setTimeout(callback(), 5000);
-};
+}
+
+function stop() {
+    RED.stop();
+}
