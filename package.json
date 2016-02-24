@@ -20,7 +20,8 @@
     "nodes": {
       "async-observer": "async-observer/async-observer.js",
       "sync-observer": "sync-observer/sync-observer.js",
-      "sync-observer-end": "sync-observer-end/sync-observer-end.js"
+      "sync-observer-end": "sync-observer-end/sync-observer-end.js",
+      "npm-loader": "npm-loader/npm-loader.js"
     }
   },
   "author": "Sachin Mane",
