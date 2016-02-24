@@ -18,9 +18,9 @@
   ],
   "node-red": {
     "nodes": {
-      "async-observer": "async-observer/async-observer.js",
-      "sync-observer": "sync-observer/sync-observer.js",
-      "sync-observer-end": "sync-observer-end/sync-observer-end.js",
+      "async-observer": "loopback-async-observer/async-observer.js",
+      "sync-observer": "loopback-sync-observer/sync-observer.js",
+      "sync-observer-end": "loopback-sync-observer-end/sync-observer-end.js",
       "npm-loader": "npm-loader/npm-loader.js"
     }
   },
