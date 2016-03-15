@@ -14,11 +14,9 @@ without touching the original application.
 
 ## Prerequisite
 
-It is required to run Node-RED in the loopback application. This project provides 
-node-red.js module which can be used as follows in loopback application's server\boot 
-script
-
-node-red.js will start a Node-RED server when the loopback application is started.
+It is required to run Node-RED from within the loopback application. This project provides 
+node-red.js module which can be used either in loopback boot script or in server.js to start
+Node-RED server. Refer to installation section for more details.
 
 ## Installation
 
@@ -38,7 +36,7 @@ module.exports = function(server, callback) {
     })
 }
 ```
-Node-RED server will be available to access on http://localhost:22081/red. 
+Upon the application startup, Node-RED server will be available to access on http://localhost:22081/red. 
 
 You can also specify following options while starting Node-RED
 
@@ -57,4 +55,4 @@ var options = {
 ```
 
 ## Contributing
-We welcome contributions. 
+We welcome contributions.
