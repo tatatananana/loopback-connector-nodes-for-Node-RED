@@ -21,5 +21,39 @@ script
 node-red.js will start a Node-RED server when the loopback application is started.
 
 ## Installation
-This is how you install...
+
+### Install this node module 
+```
+npm install node-red-contrib-loopback
+```
+### Start Node-RED Server from loopback application
+In your loopback application simply add a new boot script with following code in it
+
+```
+var nodeRed = require("node-red-contrib-loopback");
+
+module.exports = function(server, callback) {
+    nodeRed.start({port:22081}, function() {
+  callback();
+    })
+}
+```
+Node-RED server will be available to access on http://localhost:22081/red. 
+
+You can also specify following options while starting Node-RED
+
+```
+var options = {
+    port: <port number on which Node-RED server to be started>,
+    settings: {
+        httpAdminRoot: ...,
+        httpNodeRoot: ...,
+        userDir: ...,
+        nodesDir: ...,
+        flowFile: ...,
+    }
+}
+// Please see default settings.js file in node_modules/node-red for other options for settings.
+```
+
 ## Contributing
