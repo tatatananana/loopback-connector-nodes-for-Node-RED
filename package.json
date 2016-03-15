@@ -27,7 +27,14 @@
   "author": "Sachin Mane",
   "license": "ISC",
   "devDependencies": {
-    "supertest": "^1.2.0"
+    "chai": "^3.5.0",
+    "chai-things": "^0.2.0",
+    "loopback": "^2.27.0",
+    "node-red": "git+https://github.com/node-red/node-red.git",
+    "should": "^8.2.2",
+    "sinon": "^1.17.3",
+    "supertest": "^1.2.0",
+    "when": "^3.7.7"
   },
   "dependencies": {
     "express": "^4.13.4",
