@@ -21,6 +21,5 @@ script
 node-red.js will start a Node-RED server when the loopback application is started.
 
 ## Installation
-
+This is how you install...
 ## Contributing
-
