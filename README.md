@@ -34,7 +34,7 @@ var nodeRed = require("node-red-contrib-loopback");
 
 module.exports = function(server, callback) {
     nodeRed.start({port:22081}, function() {
-  callback();
+        callback();
     })
 }
 ```
@@ -57,3 +57,4 @@ var options = {
 ```
 
 ## Contributing
+We welcome contributions. 
