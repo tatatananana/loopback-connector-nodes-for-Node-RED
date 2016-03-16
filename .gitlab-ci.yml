@@ -1,9 +1,5 @@
 restart:
    script:
     - "unset http_proxy"
-    - "npm config rm proxy"
-    - "npm config rm https-proxy"
-    - "npm set registry http://10.188.25.62:9009"
-    - "npm config set fetch-retries 0"
     - "git remote add staging git@10.73.53.112:EV-Contributions/loopback-connector-nodes-for-Node-RED.git"
     - "git push staging master"
