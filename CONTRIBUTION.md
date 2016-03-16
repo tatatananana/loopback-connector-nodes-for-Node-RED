@@ -19,7 +19,7 @@ You must sign a Contributor License Agreement (CLA) before submitting your pull 
 You can download the CLAs here:
  - [Contributer License Agreement](./CLA.md)
  
-If you are an Infocian, please contact us directly as the contribution process is
+If you are an Infosys employee, please contact us directly as the contribution process is
 slightly different.
 
 ### Coding standards
