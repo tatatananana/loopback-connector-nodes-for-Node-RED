@@ -27,7 +27,6 @@ slightly different.
 Please ensure you follow the coding standards used through-out the existing
 code base. Some basic rules include:
 
- - all files must have the Apache license in the header.
- - indent with 4-spaces, no tabs.
- - opening brace on same line as `if`/`for`/`function` and so on, closing brace
+ - Indent with 4-spaces, no tabs.
+ - Opening brace on same line as `if`/`for`/`function` and so on, closing brace
  on its own line.
