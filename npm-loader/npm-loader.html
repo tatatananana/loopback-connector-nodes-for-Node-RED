@@ -19,26 +19,26 @@
   possible under the law.
  
  -->
- 
+
 <script type="text/javascript">
     RED.nodes.registerType('npm-loader', {
-        category: 'input',
-        color: '#CED8F6',
-        defaults: {
-            name: {
-                value: ""
+        category : 'input',
+        color : '#CED8F6',
+        defaults : {
+            name : {
+                value : ""
             },
-            modulename: {
-                value: ""
+            modulename : {
+                value : ""
             },
-            modulepath: {
-                value: ""
+            modulepath : {
+                value : ""
             }
         },
-        inputs: 1,
-        outputs: 1,
-        icon: "evf.png",
-        label: function () {
+        inputs : 1,
+        outputs : 1,
+        icon : "evf.png",
+        label : function() {
             return this.name || "npm-loader";
         }
     });

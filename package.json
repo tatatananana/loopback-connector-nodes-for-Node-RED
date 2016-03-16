@@ -1,6 +1,6 @@
 {
   "name": "loopback-connector-nodes-for-Node-RED",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node-RED nodes to connect loopback (http://loopback.io) based node applications",
   "main": "node-red.js",
   "scripts": {
@@ -22,6 +22,7 @@
       "async-observer": "loopback-async-observer/async-observer.js",
       "sync-observer": "loopback-sync-observer/sync-observer.js",
       "sync-observer-end": "loopback-sync-observer-end/sync-observer-end.js",
+      "model-observer": "loopback-model-observer/model-observer.js",
       "npm-loader": "npm-loader/npm-loader.js"
     }
   },

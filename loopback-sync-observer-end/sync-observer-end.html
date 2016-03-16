@@ -19,20 +19,20 @@
   possible under the law.
  
  -->
- 
+
 <script type="text/javascript">
     RED.nodes.registerType('sync-observer-end', {
-        category: 'output',
-        color: '#F2F5A9',
-        defaults: {
-            name: {
-                value: ""
+        category : 'output',
+        color : '#F2F5A9',
+        defaults : {
+            name : {
+                value : ""
             }
         },
-        inputs: 1,
-        outputs: 0,
-        icon: "evf.png",
-        label: function () {
+        inputs : 1,
+        outputs : 0,
+        icon : "evf.png",
+        label : function() {
             return this.name || "sync-observer-end";
         }
     });

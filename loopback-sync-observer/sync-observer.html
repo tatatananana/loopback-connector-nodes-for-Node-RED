@@ -18,26 +18,26 @@
   civil and criminal penalties, and will be prosecuted to the maximum extent
   possible under the law.
  -->
- 
+
 <script type="text/javascript">
     RED.nodes.registerType('sync-observer', {
-        category: 'input',
-        color: '#81F7F3',
-        defaults: {
-            name: {
-                value: ""
+        category : 'input',
+        color : '#81F7F3',
+        defaults : {
+            name : {
+                value : ""
             },
-            modelname: {
-                value: ""
+            modelname : {
+                value : ""
             },
-            method: {
-                value: ""
+            method : {
+                value : ""
             }
         },
-        inputs: 0,
-        outputs: 1,
-        icon: "evf.png",
-        label: function () {
+        inputs : 0,
+        outputs : 1,
+        icon : "evf.png",
+        label : function() {
             return this.name || "sync-observer";
         }
     });

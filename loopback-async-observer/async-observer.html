@@ -21,25 +21,25 @@
  -->
 <script type="text/javascript">
     RED.nodes.registerType('async-observer', {
-	category : 'input',
-	color : '#81F7F3',
-	defaults : {
-	    name : {
-		value : ""
-	    },
-	    modelname : {
-		value : ""
-	    },
-	    method : {
-		value : ""
-	    }
-	},
-	inputs : 0,
-	outputs : 1,
-	icon : "evf.png",
-	label : function() {
-	    return this.name || "async-observer";
-	}
+        category : 'input',
+        color : '#81F7F3',
+        defaults : {
+            name : {
+                value : ""
+            },
+            modelname : {
+                value : ""
+            },
+            method : {
+                value : ""
+            }
+        },
+        inputs : 0,
+        outputs : 1,
+        icon : "evf.png",
+        label : function() {
+            return this.name || "async-observer";
+        }
     });
 </script>
 <script type="text/x-red" data-template-name="async-observer">

@@ -23,23 +23,23 @@
 module.exports = function(RED) {
 
     function NpmLoaderNode(config) {
-	RED.nodes.createNode(this, config);
-	var node = this;
+        RED.nodes.createNode(this, config);
+        var node = this;
 
-	var moduleName = config.modulename;
-	var modulePath = config.modulepath;
+        var moduleName = config.modulename;
+        var modulePath = config.modulepath;
 
-	var module = require(modulePath);
+        var module = require(modulePath);
 
-	node.on('input', function(msg) {
+        node.on('input', function(msg) {
 
-	    msg[moduleName] = module;
-	    node.send(msg);
-	});
+            msg[moduleName] = module;
+            node.send(msg);
+        });
 
-	node.on('close', function() {
+        node.on('close', function() {
 
-	});
+        });
     }
 
     RED.nodes.registerType("npm-loader", NpmLoaderNode);

@@ -45,17 +45,17 @@ function start(options, callback) {
     // options
     var settings;
     if (options && options.settings) {
-	settings = options.settings;
+        settings = options.settings;
     } else {
-	settings = {
-	    httpAdminRoot : '/red',
-	    httpNodeRoot : '/redapi',
-	    userDir : 'nodered/',
-	    nodesDir : '../nodes',
-	    flowFile : 'node-red-flows.json',
-	    functionGlobalContext : {}
-	// enables global context
-	};
+        settings = {
+            httpAdminRoot : '/red',
+            httpNodeRoot : '/redapi',
+            userDir : 'nodered/',
+            nodesDir : '../nodes',
+            flowFile : 'node-red-flows.json',
+            functionGlobalContext : {}
+        // enables global context
+        };
     }
 
     // Initialise the runtime with a server and settings
