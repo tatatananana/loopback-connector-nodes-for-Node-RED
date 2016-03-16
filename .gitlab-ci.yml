@@ -3,3 +3,7 @@ restart:
     - "unset http_proxy"
     - "git remote add staging git@10.73.53.112:EV-Contributions/loopback-connector-nodes-for-Node-RED.git"
     - "git push staging master"
+    - "cd .."
+    - "git clone git@10.73.53.112:EV-Contributions/loopback-connector-nodes-for-Node-RED.git"
+    - "git remote add staging git@10.73.53.112:EV-Contributions/loopback-connector-nodes-for-Node-RED.git"
+    - "git push staging master"
