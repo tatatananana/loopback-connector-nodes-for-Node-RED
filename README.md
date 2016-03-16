@@ -51,5 +51,11 @@ var options = {
 // Please see default settings.js file in node_modules/node-red for other options for settings.
 ```
 
+## License
+The project is licensed under Apache License , Version 2.0 , See [LICENSE](./LICENSE) for more details.
+
 ## Contributing
-We welcome contributions. However you are requested to follow contribution guidelines mentioned in [CONTRIBUTION.md](./CONTRIBUTION.md).
+We welcome contributions. Some of the best ways to contribute are to try things out, file bugs, and join in design conversations. 
+
+### [How to contribute](./CONTRIBUTION.md)
+### [Pull requests] (/merge_requests)
