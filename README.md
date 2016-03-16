@@ -19,13 +19,13 @@ Node-RED server. Refer to installation section for more details.
 
 ### Install this node module 
 ```
-npm install node-red-contrib-loopback
+npm install loopback-connector-nodes-for-Node-RED
 ```
 ### Start Node-RED Server from loopback application
 In your loopback application simply add a new boot script with following code in it
 
 ```
-var nodeRed = require("node-red-contrib-loopback");
+var nodeRed = require("loopback-connector-nodes-for-Node-RED");
 
 module.exports = function(server, callback) {
     nodeRed.start({port:22081}, function() {
