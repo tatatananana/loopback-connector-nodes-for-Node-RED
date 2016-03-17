@@ -50,6 +50,8 @@ var options = {
 }
 // Please see default settings.js file in node_modules/node-red for other options for settings.
 ```
+## More information
+Please refer wiki documentation for more information on installation and usage.
 
 ## License
 The project is licensed under Apache License , Version 2.0 , See [LICENSE](./LICENSE) for more details.
