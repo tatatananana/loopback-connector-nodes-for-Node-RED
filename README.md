@@ -19,7 +19,12 @@ Node-RED server. Refer to installation section for more details.
 
 ### Install this node module 
 ```
-npm install loopback-connector-nodes-for-Node-RED
+npm install git+https://github.com/EdgeVerve/loopback-connector-nodes-for-Node-RED.git 
+
+or
+
+npm install git+git@github.com:EdgeVerve/loopback-connector-nodes-for-Node-RED.git
+
 ```
 ### Start Node-RED Server from loopback application
 In your loopback application simply add a new boot script with following code in it
