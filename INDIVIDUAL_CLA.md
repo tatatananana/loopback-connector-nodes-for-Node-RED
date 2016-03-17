@@ -1,11 +1,16 @@
 # Individual Contributor License Agreement
 
 By signing this Individual Contributor License Agreement (“Agreement”), and making a Contribution (as defined below) to EdgeVerve Systems Limited, located in Electronics City, Hosur Road, Bangalore 560 100 (“EdgeVerve”), You (as defined below) accept and agree to the following terms and conditions for Your present and future Contributions submitted to EdgeVerve. Except for the license granted in this Agreement to EdgeVerve and recipients of software distributed by EdgeVerve, You reserve all right, title, and interest in and to Your Contributions. Please read this document carefully before signing and keep a copy for Your records. Please email a signed .pdf file of this Agreement to IPC@edgeverve.com. 
+
 1.	Definitions:
 “You” or “Your” shall mean the copyright owner or the individual authorized by the copyright owner that is entering into this Agreement with EdgeVerve.
 “Contribution” shall mean any original work of authorship, including any modifications or additions to an existing work, that is intentionally submitted by You to EdgeVerve for inclusion in, or documentation of, any of the products owned or managed by EdgeVerve (“Work”). For purposes of this definition, “submitted” means any form of electronic, verbal, or written communication sent to EdgeVerve or its representatives, including but not limited to communication or electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, EdgeVerve for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by You as “Not a Contribution.”
+
+
 2.	Grant of Copyright License:
 Subject to the terms and conditions of this Agreement, You hereby grant EdgeVerve and recipients of software distributed by EdgeVerve, a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare derivative works of, publicly display, publicly perform, sublicense, and distribute Your Contributions and such derivative works under any license and without any restrictions.
+
+
 3.	Grant of Patent License: 
 Subject to the terms and conditions of this Agreement, You hereby grant to EdgeVerve and to recipients of software distributed by EdgeVerve a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this Section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work under any license and without any restrictions. The patent license You grant to EdgeVerve and the recipients of the software under this Section applies only to those patent claims licensable by You that are necessarily infringed by Your Contributions(s) alone or by combination of Your Contributions(s) with the Work to which such Contribution(s) was submitted. If any entity institutes a patent litigation against You or any other entity (including a cross-claim or counterclaim in a lawsuit) alleging that Your Contribution, or the Work to which You have contributed, constitutes direct or contributory patent infringement, any patent licenses granted to that entity under this Agreement for that Contribution or Work shall terminate as of the date such litigation is filed.
 4.	Grant of License: 
