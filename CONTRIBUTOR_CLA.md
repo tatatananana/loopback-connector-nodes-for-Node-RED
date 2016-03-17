@@ -26,17 +26,19 @@ It is your responsibility to notify EdgeVerve when any change is required to the
 
 <br>
 
-[Signature page follows]
-Signature:
-Name:
-Corporation:
-Title:
-Date:
+[Signature page follows]  
+Signature:  
+  
+    
+Name:  
+Corporation:  
+Title:  
+Date:  
 
    
  
-Schedule A <br>
+Schedule A  
 List of employees
  
-Schedule B <br?
- List of works of authorship
+Schedule B  
+List of works of authorship  
