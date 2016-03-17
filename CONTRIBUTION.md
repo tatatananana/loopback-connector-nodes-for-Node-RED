@@ -17,7 +17,8 @@ trying to do and what went wrong.
 You must sign a Contributor License Agreement (CLA) before submitting your pull request. To complete the CLA, please email a signed .pdf file of this Agreement to IPC@EdgeVerve.com. You need to complete the CLA only once to cover all EdgeVerve projects.
 
 You can download the CLAs here:
- - [Contributer License Agreement](./CLA.md)
+ - [Individual Contributer License Agreement](./INDIVIDUAL_CLA.md)
+ - [Corporate Contributer License Agreement](./CORPORATE_CLA.md)
  
 If you are an Infosys employee, please contact us directly as the contribution process is
 slightly different.
