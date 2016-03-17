@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for your interest in NODE-RED-loopback-Connecter, an open source project administered by EdgeVerve.
+Thank you for your interest in Loopback-connector-nodes-for-Node-RED, an open source project administered by EdgeVerve.
 
 
 ## Raising issues
