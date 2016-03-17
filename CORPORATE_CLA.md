@@ -27,13 +27,25 @@ It is your responsibility to notify EdgeVerve when any change is required to the
 <br>
 
 [Signature page follows]  
-Signature:  
+<br>
+<br>
+<br>
   
-    
-Name:  
-Corporation:  
-Title:  
-Date:  
+Signature: _____________________________________________________________________ 
+
+
+Name: __________________________________________________________________________ 
+
+
+Corporation: ___________________________________________________________________ 
+
+
+Title: _________________________________________________________________________ 
+
+
+Date: __________________________________________________________________________ 
+
+
 
    
  
@@ -41,4 +53,4 @@ Schedule A
 List of employees
  
 Schedule B  
-List of works of authorship  
+List of works of authorship
