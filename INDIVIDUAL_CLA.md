@@ -21,12 +21,12 @@ You are not expected to provide support for Your Contributions, except to the ex
 If You wish to submit work that is not Your original creation, You may submit it to EdgeVerve separately from any Contribution, identifying the complete details of its source and of any license or other restriction (including, but not limited to, related patents, trademarks, and license agreements) of which You are personally aware, and conspicuously marking the work as “Submitted on Behalf of a Third-Party: [named here]”.
 8.	Change of circumstances:
 You agree to notify EdgeVerve of any facts or circumstances of which You become aware that would make these representations inaccurate in any respect. Email us at IPC@edgeverve.com.  
+<br>
+<br>
+<br>
 
-Signature:  
   
-
-  
-    
-Name:  ______________________________________________________  
-Title:  ______________________________________________________  
-Date:______________________________________________________  
+Signature:  _________________________________________________ <br><br>
+Name:  ______________________________________________________  <br><br>
+Title: ______________________________________________________  <br><br>
+Date:  ______________________________________________________  <br><br>
