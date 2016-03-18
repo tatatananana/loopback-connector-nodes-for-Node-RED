@@ -1,7 +1,7 @@
 # Loopback connector nodes for Node-RED
 
-Loopback is a powerful NodeJS framework to create REST APIs based on declarative 
-model definitions. Node-RED is yet another porwerful tool to wire together APIs and online services.
+[Loopback] (https://github.com/strongloop/loopback) is a powerful NodeJS framework to create REST APIs based on declarative 
+model definitions. [Node-RED] (https://github.com/node-red/node-red) is yet another porwerful tool to wire together APIs and online services.
 
 This project provides a set of custom Node-RED nodes which can be used to integrate 
 Node-RED with any loopback application. 
