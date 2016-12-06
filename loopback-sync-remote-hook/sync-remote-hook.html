@@ -1,0 +1,55 @@
+<!--
+  -->
+
+<script type="text/javascript">
+    RED.nodes.registerType('sync-remote-hook', {
+        category : 'input',
+        color : '#81F7F3',
+        defaults : {
+            name : {
+                value : ""
+            },
+            modelname : {
+                value : ""
+            },
+            method : {
+                value : ""
+            },
+            remotename : {
+              value : ""
+            }
+        },
+        inputs : 0,
+        outputs : 1,
+        icon : "evf.png",
+        label : function() {
+            return this.name || "sync-remote-hook";
+        }
+    });
+</script>
+<script type="text/x-red" data-template-name="sync-remote-hook">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-modelname"><i class="icon-tag"></i> Model Name</label>
+        <input type="text" id="node-input-modelname" placeholder="Model Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-remotename"><i class="icon-tag"></i> Remote Name</label>
+        <input type="text" id="node-input-remotename" placeholder="Remote Name">
+    </div>
+    <div class="form-row">
+        <label for="node-input-method"><i class="icon-tag"></i> Method</label>
+        <!--<input type="select" id="node-input-method" placeholder="Method">-->
+        <select id="node-input-method">
+            <option value="beforeRemote">Before Remote</option>
+			      <option value="afterRemote">After Remote</option>
+        </select>
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="sync-remote-hook">
+    <p>A remote hook enables you to execute a function before or after a remote method is called by loopback Remote methods and waits until control is returned back by calling next() callback. Dont forget to call msg.next(msg) to return control, or use loopback-async-observer-end.<br/>before remote use msg.args, after remote use msg.result to modify changes</p>
+</script>
