@@ -22,6 +22,8 @@
       "async-observer": "loopback-async-observer/async-observer.js",
       "sync-observer": "loopback-sync-observer/sync-observer.js",
       "sync-observer-end": "loopback-sync-observer-end/sync-observer-end.js",
+      "sync-observer": "loopback-sync-observer/sync-observer.js",
+      "sync-remote-hook": "loopback-sync-remote-hook/sync-remote-hook.js",
       "model-observer": "loopback-model-observer/model-observer.js",
       "npm-loader": "npm-loader/npm-loader.js"
     }
